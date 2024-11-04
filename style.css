@@ -202,13 +202,20 @@ a:hover {
     gap: 1rem;
   }
 
-  /* icons */
+  /* icons and selfie*/
 
   .icon {
     cursor: pointer;
     height: 2rem;
   }
  
+  .self {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+    width: 10%;
+  }
   /* buttons */
 
   .btn-container {
@@ -306,6 +313,7 @@ a:hover {
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    
   }
 
   .contact-info-upper-container {
@@ -338,3 +346,8 @@ a:hover {
   .email-icon {
     height: 2.5rem;
   }
+  
+  section:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
